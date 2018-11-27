@@ -34,5 +34,5 @@ while t_b < len(big):
     big = driver.find_elements_by_css_selector("ul#box-apps-menu>li")
     t_b = t_b + 1
     t_s = 1
-
+driver.quit()
 
