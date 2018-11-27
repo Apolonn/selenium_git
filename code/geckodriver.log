@@ -1,0 +1,21 @@
+1543064424646	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/m6/q95vzkzs5nqf4gzlsg1y_d1h0000gn/T/rust_mozprofile.bBIa76eMW5Ss"
+1543064426316	Marionette	INFO	Listening on port 53149
+1543064426403	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://activity-stream/lib/TopSitesFeed.jsm, line 93: TypeError: setting getter-only property "_currentSearchHostname"
+JavaScript error: chrome://browser/content/browser-safebrowsing.js, line 16: TypeError: gBrowser is undefined
+[Child 1720, Chrome_ChildThread] WARNING: pipe error: Socket is not connected: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 729
+[Child 1720, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 729
+[Child 1720, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 729
+JavaScript error: chrome://browser/content/browser-safebrowsing.js, line 16: TypeError: gBrowser is undefined
+1543064474401	Marionette	INFO	Stopped listening on port 53149
+1543064526043	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/m6/q95vzkzs5nqf4gzlsg1y_d1h0000gn/T/rust_mozprofile.lGNgW3dHpsNM"
+1543064527573	Marionette	INFO	Listening on port 53361
+1543064527675	Marionette	WARN	TLS certificate errors will be ignored for this session
+1543064527975	Marionette	INFO	Stopped listening on port 53361
+JavaScript error: resource://activity-stream/lib/TopSitesFeed.jsm, line 86: TypeError: setting getter-only property "_currentSearchHostname"
+1543064569845	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/m6/q95vzkzs5nqf4gzlsg1y_d1h0000gn/T/rust_mozprofile.ePlMgN8m7sGt"
+1543064571395	Marionette	INFO	Listening on port 53456
+1543064571478	Marionette	WARN	TLS certificate errors will be ignored for this session
+1543064571948	Marionette	INFO	Stopped listening on port 53456
+JavaScript error: resource://activity-stream/lib/TopSitesFeed.jsm, line 86: TypeError: setting getter-only property "_currentSearchHostname"
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 841: Error: Connection is not open.
