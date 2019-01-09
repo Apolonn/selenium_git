@@ -90,3 +90,5 @@ is_sorted(dict)
 is_sorted(dict2)
 print(dict)
 print(dict2)
+
+driver.quit()
