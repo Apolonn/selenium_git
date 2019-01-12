@@ -37,4 +37,8 @@ driver.find_element_by_css_selector('input[name="email"]').send_keys(mail)
 driver.find_element_by_css_selector('input[name="password"]').send_keys(pas)
 driver.find_element_by_css_selector('button[name="login"]').click()
 
+driver.find_element_by_css_selector('li.account.dropdown').click()
+k=driver.find_elements_by_css_selector('li.account.dropdown.open>ul>li')
+k[2].click()
+
 driver.quit()
