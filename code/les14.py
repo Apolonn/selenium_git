@@ -11,7 +11,7 @@ driver.find_element_by_name("username").send_keys("admin")
 driver.find_element_by_name("password").send_keys("admin" + Keys.RETURN)
 
 
-driver.implicitly_wait(10)
+driver.implicitly_wait(2)
 
 driver.find_element_by_css_selector(".list-inline.pull-right>li>a").click()
 t=0
