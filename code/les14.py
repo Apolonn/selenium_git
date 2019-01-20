@@ -13,7 +13,7 @@ driver.find_element_by_name("password").send_keys("admin" + Keys.RETURN)
 
 driver.implicitly_wait(2)
 
-driver.find_element_by_css_selector(".list-inline.pull-right>li>a").click()
+driver.find_element_by_css_selector("div>a.button").click()
 t=0
 links = driver.find_elements_by_css_selector('form a[target="_blank"]')
 for link in links:
